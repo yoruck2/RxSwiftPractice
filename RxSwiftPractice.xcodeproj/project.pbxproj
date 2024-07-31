@@ -26,6 +26,8 @@
 		841EA7B92C590835009E63D0 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EA7B82C590835009E63D0 /* BaseViewController.swift */; };
 		841EA7BB2C59108F009E63D0 /* PlaygroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EA7BA2C59108F009E63D0 /* PlaygroundViewController.swift */; };
 		841EA7BE2C591FBC009E63D0 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 841EA7BD2C591FBC009E63D0 /* Then */; };
+		84F6F7F32C5959C1004616FD /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 84F6F7F22C5959C1004616FD /* .gitignore */; };
+		84F6F7F52C59DF25004616FD /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F6F7F42C59DF25004616FD /* UserViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		841EA7B22C59057A009E63D0 /* RxPracticeNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxPracticeNavigationController.swift; sourceTree = "<group>"; };
 		841EA7B82C590835009E63D0 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		841EA7BA2C59108F009E63D0 /* PlaygroundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundViewController.swift; sourceTree = "<group>"; };
+		84F6F7F22C5959C1004616FD /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		84F6F7F42C59DF25004616FD /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,7 @@
 		841EA7792C587565009E63D0 = {
 			isa = PBXGroup;
 			children = (
+				84F6F7F22C5959C1004616FD /* .gitignore */,
 				841EA7842C587565009E63D0 /* RxSwiftPractice */,
 				841EA7832C587565009E63D0 /* Products */,
 			);
@@ -113,6 +118,7 @@
 				841EA7892C587565009E63D0 /* ViewController.swift */,
 				841EA7A22C58AC9C009E63D0 /* BasicButtonViewController.swift */,
 				841EA7A42C58C071009E63D0 /* OperatorViewController.swift */,
+				84F6F7F42C59DF25004616FD /* UserViewController.swift */,
 			);
 			path = Examples;
 			sourceTree = "<group>";
@@ -204,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				841EA78F2C587567009E63D0 /* Assets.xcassets in Resources */,
+				84F6F7F32C5959C1004616FD /* .gitignore in Resources */,
 				841EA7922C587567009E63D0 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,6 +229,7 @@
 				841EA7A92C59032C009E63D0 /* RxPracticeTabBarController.swift in Sources */,
 				841EA7B32C59057A009E63D0 /* RxPracticeNavigationController.swift in Sources */,
 				841EA7862C587565009E63D0 /* AppDelegate.swift in Sources */,
+				84F6F7F52C59DF25004616FD /* UserViewController.swift in Sources */,
 				841EA7882C587565009E63D0 /* SceneDelegate.swift in Sources */,
 				841EA7B12C590470009E63D0 /* RxPickerViewController.swift in Sources */,
 				841EA7A32C58AC9C009E63D0 /* BasicButtonViewController.swift in Sources */,

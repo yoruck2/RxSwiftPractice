@@ -26,6 +26,12 @@ class BasicButtonViewController: UIViewController {
         firstExample()
         secondExample()
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        present(OperatorViewController(), animated: true)
+        
+    }
     // TODO: observable, observer, subscribe, bind
     // TODO: 흐름 따라가보면서 복습
     // TODO: pickerView, tableView, UISwitch, UITextFiled, UIButton
@@ -128,8 +134,7 @@ class BasicButtonViewController: UIViewController {
     }
     func secondExample() {
         button.rx.tap
-            .map { "버튼을 다시 클릭했어요" }
-            .map { "\($0)" }
+            .map { "버튼을 다시 클릭했어요 \(Int.random(in: 1...100))" }
             .bind(to: secondLabel.rx.text, textField.rx.text)
             .disposed(by: disposeBag)
         
